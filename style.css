@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(image/images.jpg);
+
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 25px;
+}
+.title {
+    font-size: 70px;
+    font-weight: bold;
+}
+.result-section {
+    font-size: 50px;
+}
+.chance-section {
+    font-size: 40px;
+    font-weight: lighter;
+}
+button {
+    background: none;
+    border: none;
+    color: wheat;
+    font-size: 20px;
+}
+.reset-button {
+    margin-top: 10px;
+}
+.input-button {
+    margin-top: 10px;
+}
+.user-input-section {
+    width: 200px;
+    height: 40px;
+    background-color: wheat;
+    color: black;
+    border: none;
+}
+
+@media  screen and  (max-width: 700px) {
+    .title {
+        font-size: 50px;
+    }
+    .result-section {
+        font-size: 30px;
+    }
+    .chance-section {
+        font-size: 20px;
+    }
+}
